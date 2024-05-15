@@ -1,0 +1,63 @@
+/* Reset CSS */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center; /* Center-align all content */
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.about-us {
+  padding: 20px;
+}
+
+/* Styling for the main heading */
+.about-us h1 {
+  font-size: 24px;
+  color: #333;
+  text-align: center; /* Center-align h1 */
+  margin-bottom: 20px;
+}
+
+/* Styling for the student section */
+.student {
+  margin-top: 20px; /* Add margin above student section */
+}
+
+.student h2 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.student img {
+  width: 200px; /* Adjust image width */
+  height: 200px; /* Adjust image height */
+  border-radius: 50%; /* Make images circular */
+  margin-bottom: 10px;
+}
+
+/* Responsive layout for student profiles */
+.student-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.student-profile {
+  flex: 0 0 30%; /* Set width for each student profile */
+  padding: 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .student-profile {
+      flex: 0 0 50%; /* Adjust width for smaller screens */
+  }
+}

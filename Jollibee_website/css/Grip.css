@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #edcb74;
+ 
+ }
+  .column {
+    float: right;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  div.gallery {
+    border: 1px solid #ccc;
+    
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #ff0000;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  div.desc{
+  font-family: century;
+  text-align:center;
+  
+  }
+  
+  
+  .hire{
+    font-size: 18px;
+    background: #d30e00;
+    color: rgb(230, 149, 0);
+    text-decoration: none;
+    border: none;
+    padding: 8px 25px;
+    border-radius: 6px;
+    transition: 0.5s;
+    position:absolute; right:50px;
+  }
+  .hire:hover{
+    background: rgb(231, 215, 215);
+    border: 1px #4070f4;
+  }

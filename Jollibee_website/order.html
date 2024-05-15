@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewfort" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./css/order.css">
+    <link rel="stylesheet" href="./css/style.css"> 
+    
+    <style>
+      
+      </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.php" data-after="#home">Home</a></li>
+        <li><a href="products.html" data-after="Programs">Products</a></li>  
+        <li><a href="Product description.html" data-after="Product description">Product description</a></li>
+        <li><a href="About us.html" data-after="About us">About us</a></li>
+        <li><a href="Contact us.html" data-after="Contact us">Contact us</a></li>
+        <li><a href="logout.php" data-after="Logout">Logout</a></li> 
+      </ul>
+    </nav>
+
+    <h3>Check Out</h3>
+
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    
+        <label for="lname">Address</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your Address..">
+    
+        <label for="country">Phone Number</label>
+        <input type="text" id="lname" name="Email" placeholder="Your Number..">
+        </select>
+    
+        <label for="subject">Order and Requests/Add-ons</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    
+          
+	       
+      </form>
+      <button class="button1" onclick="document.location='orderform.html'">Submit Order</button>
+      <a href="products.html" class="hire">Back to previous</a>
+    </div>
+    </body>
+  </html>
